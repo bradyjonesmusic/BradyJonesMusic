@@ -1,0 +1,160 @@
+body {
+    /* Everything in the site (changes the background color and font) */
+    background-color: #c3c3c3;
+    font-family: monospace;
+    width: 100vw; /* Set the body width to 100% of viewport width */
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Rest of your CSS remains the same */
+/* ... */
+
+
+#Hyper{
+    /*Default color of link*/
+    color:#000000;   
+}
+
+#Hyper:hover{
+    /*Hyperlink to upcoming page on hover*/
+    color:#68400c;
+}
+
+
+#TiktokHyper{
+    /*Default color of Tiktok link*/
+    color:#000000;   
+}
+
+#TiktokHyper:hover{
+    /*Hyperlink to tiktok page on hover*/
+    color:#f6084d;
+}
+
+#TiktokHyper:active{
+ /*Changes color when it is being clicked*/
+    color:#08ede5;
+}
+#pagetitle{
+    margin-top:150px;
+    color:#000000;
+    font-size:clamp(10px, 5vw, 80px);
+    font-family:monospace;
+    text-align:center;
+    text-shadow: 2.5px 2.5px #ffffff;
+  
+}
+
+#homepagepic{
+    /*Picture of Brady on homepage*/
+    height: auto;
+    display: block;
+    box-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:28vw;
+    min-width:300px;
+    max-width:500px;
+    
+}
+
+/* Rest of your CSS remains the same */
+
+.fa {
+    /* List of social media apps with hyperlinks */
+    display: flex;
+    justify-content: space-between; /* Spread out the icons evenly */
+    align-items: center; /* Vertically center the icons */
+    height: auto;
+    text-align: center;
+    max-width: 80%; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Adjust the individual icon sizes if needed */
+.fa-TiktokLogo {
+    width: 8vw;
+    min-width: 60px;
+}
+
+.fa-InstaLogo {
+    width: 8vw;
+    min-width: 60px;
+}
+
+.fa-YoutubeLogo {
+    width: 8vw;
+    min-width: 60px;
+}
+
+
+
+#pagetext{
+    /*small text under title*/
+    text-align: center;
+    color:black;
+    text-shadow: 1px 1px #ffffff;
+    font-size:clamp(20px, 3.5vw, 30px);
+    font-family: monospace; 
+    margin-top: 30px;
+    font-style:italic;
+}
+
+/*The navigation bar itself (not the text)*/
+/* Update your CSS for the navigation bar */
+
+/* Update your CSS for the navigation bar */
+/* Update your CSS for the navigation bar */
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    background-color: #000000;
+    height: 8vw;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+li {
+    text-align: center;
+    flex-grow: 1; /* Distribute available space evenly */
+    margin-left: 1vw;
+}
+
+
+
+li a {
+    color: #c3c3c3;
+    font-size: clamp(20px, 4vw, 50px);
+    text-decoration: none;
+    padding: 0;
+}
+
+
+
+
+
+/* Rest of your CSS remains the same */
+/* ... */
+
+
+/* Adjust your CSS for the logo within the navigation bar */
+
+/* Adjust your CSS for the logo within the navigation bar */
+
+#logo {
+    display: flex;
+    align-items: center; /* Vertically center the logo */
+}
+
+#SmallLogo {
+    width: 6vw; /* Adjust the width as needed */
+    height: auto;
+    margin-left: 3vw; /* Add spacing to the right of the logo */
+}
